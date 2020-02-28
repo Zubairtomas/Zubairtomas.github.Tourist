@@ -1,0 +1,180 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+
+	#navbarNav ul li a:hover{
+		background-color: blue ;	
+	}
+.carousel-item {
+  width:100%;
+  height: 600px; 
+  }
+
+.carousel-img-1 {
+  background: url("../img/111.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/hills.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/main.jpg");
+  background-size: cover; }
+
+#home-icon .fa {
+  font-size: 50px; }
+
+#home-getstarted {
+  position: relative;
+  background: url("../img/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px; }
+  #home-getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.height100{
+    height: 1000px;
+}
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    overflow: hidden;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: 100%;
+    background: url(../img/arr.png) no-repeat 0px 0px;
+}
+#toTopHover {
+    width: 32px;
+    height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+#gallery img {
+  min-height: 250px; }
+
+#copyright {
+  background: #000; }
+
+/* About Page */
+#page-header {
+  background: url("../img/3.jpg");
+  background-size: cover;
+  height: 200px;
+  padding-top: 50px;
+  background-attachment: fixed; }
+
+#about img {
+  width: 350px;
+  height: 350px; }
+
+#icon-boxes .fa {
+  font-size: 50px; }
+
+.slick-prev:before, .slick-next:before {
+  color: #000; }
+p {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+#page-wrap {
+    width: 660px;
+    background: white;
+    padding: 20px 50px 20px 50px;
+    margin: 20px auto;
+    min-height: 500px;
+    height: auto !important;
+    height: 500px;
+}
+
+#contact-area {
+    width: 600px;
+    margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+    padding: 5px;
+    width: 471px;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin: 0px 0px 10px 0px;
+    border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+    height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+    border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+    width: 100px;
+    float: right;
+}
+
+label {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+    padding-top: 5px;
+    font-size: 1.4em;
+}
+
+
+.success {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../images/success.png');
+    background-size:31px 31px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; font-weight: 600;
+}
+@media (max-width: 991px) {
+  #home-getstarted {
+    min-height: 350px; } }
+
+@media (max-width: 575px) {
+  .carousel-caption h2 {
+    font-size: 36px; }
+  .carousel-item .pb-5 {
+    padding-bottom: 0 !important; }
+  #home-getstarted h2 {
+    font-size: 36px;
+    margin: 20px 0; } }
+
+@media (max-width: 480px) {
+  #home-getstarted {
+    min-height: 450px; }
+    #home-getstarted h2 {
+      font-size: 36px !important;
+      margin: 15px 0; } }
